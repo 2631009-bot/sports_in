@@ -2,8 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="스포츠인(Sports_In)", page_icon="🏀")
 
-st.title("🏀 Hidden Sports Places")
-st.subheader("우리 동네 숨겨진 스포츠 시설 찾기")
+st.title("🏀 Sports_In")
+st.subheader("우리 동네 실내 스포츠 시설 찾기")
 
 sport = st.selectbox(
     "스포츠 종목 선택",
